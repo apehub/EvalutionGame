@@ -1,3 +1,85 @@
+﻿---
+schema_version: "2.0"
+type: "clade"
+id: "clade.fishes"
+slug: "fishes"
+title:
+  zh-CN: "鱼类"
+  en: "Fishes"
+  scientific: null
+title_short: "鱼类"
+summary: "脊椎动物主线的综合总览页，用于连接有颌化、肉鳍鱼支线与四足动物过渡。"
+status: "active"
+priority: 1
+aliases: []
+naming:
+  canonical_path: "doc/resource/02-clades/fishes.md"
+tags:
+  time:
+    - "cambrian"
+    - "devonian"
+  clade:
+    - "fishes"
+    - "vertebrates"
+  event:
+    - "vertebrate-landfall"
+  ecology:
+    - "marine"
+    - "freshwater"
+  custom: []
+relations:
+  parent_ids: []
+  child_ids: []
+  related_ids:
+    - "timeline.cambrian"
+    - "timeline.devonian"
+    - "event.vertebrate-landfall"
+    - "species-card.tiktaalik-roseae"
+    - "species-card.ichthyostega"
+  predecessor_ids: []
+  successor_ids:
+    - "event.vertebrate-landfall"
+time:
+  start_ma: 520
+  end_ma: 0
+  display: "寒武纪已有脊索动物前奏，古生代显著扩张并延续至今"
+  precision: "approximate"
+  chrono_labels:
+    - "cambrian"
+    - "devonian"
+geo:
+  modern_regions: []
+  formations: []
+sources:
+  primary_source_ids:
+    - "source.core-books"
+    - "source.ucmp-history-of-life"
+    - "source.open-tree-of-life"
+  support_source_ids:
+    - "source.pbdb"
+    - "source.timetree"
+assets:
+  featured_asset_ids:
+    - "asset.fishes.clade-overview"
+render:
+  color_key: "vertebrates"
+  timeline_group: "clade-mainline"
+  sort_key: 210
+  default_view: "article"
+maintenance:
+  authoring_template: "clade-v2"
+  source_check_needed: true
+clade:
+  rank_label: "综合总览页"
+  phylo_status: "informal"
+  extant: true
+  parent_clade_id: null
+  sister_clade_ids: []
+  representative_species_ids:
+    - "species-card.tiktaalik-roseae"
+    - "species-card.ichthyostega"
+---
+
 # 鱼类（Fishes）
 
 ## 基本信息
@@ -75,11 +157,11 @@
 
 ## 核心来源
 
-- Michael J. Benton, *Vertebrate Palaeontology*
-- UCMP, *History of Life Through Time*
-- Jennifer A. Clack, *Gaining Ground*
-- Smithsonian Ocean, *Paleozoic Timeline*
-- Paleobiology Database
+- Michael J. Benton, *Vertebrate Palaeontology*（用于鱼类主线、脊椎动物演化框架与有颌化/肉鳍鱼过渡背景；书目入口：https://www.wiley.com/en-us/Vertebrate+Palaeontology,+5th+Edition-p-9781394195084）
+- UCMP, *History of Life Through Time*（用于教学型生命史主线与古生代脊椎动物综述；链接：https://ucmp.berkeley.edu/exhibits/historyoflife.php）
+- Jennifer A. Clack, *Gaining Ground*（用于肉鳍鱼到四足动物过渡部分，帮助本页与登陆事件页保持主干一致；书目入口：https://iupress.org/9780253005373/gaining-ground-second-edition/）
+- Smithsonian Ocean, *Bony Beginnings: The Rise of Vertebrate Innovation in the Devonian*（用于泥盆纪“鱼类时代”的教学型概览和读者向导；链接：https://www.ocean.si.edu/through-time/bony-beginnings-rise-vertebrate-innovation-devonian）
+- Paleobiology Database（用于化石出现区间、分布与代表类群材料检索；主站：https://paleobiodb.org/ ，Navigator：https://paleobiodb.org/navigator/）
 
 ## 证据分层
 
@@ -103,6 +185,12 @@
 - 系统位置优先查 Open Tree of Life。
 - 化石分布、首次出现区间与产地优先查 Paleobiology Database。
 - 分歧时间若需旁注，可辅以 TimeTree，但不替代化石首次出现记录。
+
+## 引用说明
+
+- 本页中的“鱼类”是资料组织型总览概念，不是严格单系群名称，因此系统位置说明要明确这一点。
+- 本页中的“大主线判断”应优先用 Benton、Clack 这类教材或专著支撑，Smithsonian 更适合作为读者友好的补充入口。
+- 由于 TimeTree 检索容易和同名非学术站点混淆，当前不建议把它作为本页的主要可追溯入口，除非后续补到准确数据库链接。
 
 ## 争议与说明
 

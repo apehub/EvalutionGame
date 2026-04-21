@@ -1,3 +1,96 @@
+﻿---
+schema_version: "2.0"
+type: "event"
+id: "event.vertebrate-landfall"
+slug: "vertebrate-landfall"
+title:
+  zh-CN: "脊椎动物登陆"
+  en: "Vertebrate Landfall"
+  scientific: null
+title_short: "脊椎动物登陆"
+summary: "脊椎动物主线中的关键转折事件页，用于连接肉鳍鱼近缘支系与早期四足动物。"
+status: "active"
+priority: 1
+aliases: []
+naming:
+  canonical_path: "doc/resource/03-events/vertebrate-landfall.md"
+tags:
+  time:
+    - "devonian"
+    - "carboniferous"
+  clade:
+    - "fishes"
+    - "amphibians"
+  event:
+    - "vertebrate-landfall"
+  ecology:
+    - "terrestrial"
+    - "freshwater"
+  custom: []
+relations:
+  parent_ids:
+    - "timeline.devonian"
+    - "clade.fishes"
+  child_ids: []
+  related_ids:
+    - "timeline.devonian"
+    - "clade.fishes"
+    - "clade.amphibians"
+    - "species-card.tiktaalik-roseae"
+    - "species-card.ichthyostega"
+  predecessor_ids:
+    - "clade.fishes"
+  successor_ids:
+    - "clade.amphibians"
+time:
+  start_ma: 375
+  end_ma: 340
+  display: "以泥盆纪晚期为核心，并延续到石炭纪早期"
+  precision: "approximate"
+  chrono_labels:
+    - "devonian"
+    - "carboniferous"
+geo:
+  modern_regions: []
+  formations: []
+sources:
+  primary_source_ids:
+    - "source.core-books"
+    - "source.ucmp-history-of-life"
+  support_source_ids:
+    - "source.pbdb"
+assets:
+  featured_asset_ids:
+    - "asset.vertebrate-landfall.sequence-diagram"
+render:
+  color_key: "vertebrates"
+  timeline_group: "event-mainline"
+  sort_key: 260
+  default_view: "article"
+maintenance:
+  authoring_template: "event-v2"
+  source_check_needed: true
+event:
+  event_kind: "evolutionary-transition"
+  trigger_type:
+    - "biotic"
+    - "environmental"
+  cause_ids:
+    - "clade.fishes"
+  affected_clade_ids:
+    - "clade.fishes"
+    - "clade.amphibians"
+  consequence_tags:
+    - "terrestrial-expansion"
+    - "tetrapod-origin"
+  evidence_types:
+    - "comparative-anatomy"
+    - "fossil-sequence"
+    - "sedimentology"
+  certainty_of_occurrence: "high"
+  certainty_of_mechanism: "medium"
+---
+
 # 脊椎动物登陆（Vertebrate Landfall）
 
 ## 基本信息
@@ -54,11 +147,11 @@
 
 ## 核心来源
 
-- Michael J. Benton, *Vertebrate Palaeontology*
-- Jennifer A. Clack, *Gaining Ground*
-- UCMP, *History of Life Through Time*
-- Berkeley Understanding Evolution
-- Paleobiology Database
+- Michael J. Benton, *Vertebrate Palaeontology*（用于脊椎动物登陆的主流教材框架、关键类群关系与时间背景；书目入口：https://www.wiley.com/en-us/Vertebrate+Palaeontology,+5th+Edition-p-9781394195084）
+- Jennifer A. Clack, *Gaining Ground*（用于鱼到四足动物过渡、关键解剖特征与泥盆纪-石炭纪过渡主线；书目入口：https://iupress.org/9780253005373/gaining-ground-second-edition/）
+- UCMP, *History of Life Through Time*（用于教学型总览与事件位置说明；链接：https://ucmp.berkeley.edu/exhibits/historyoflife.php）
+- Berkeley Understanding Evolution（用于概念澄清，例如“过渡型不等于直接祖先”“渐进式过渡”的教学表达；链接：https://evolution.berkeley.edu/）
+- Paleobiology Database（用于化石出现区间、产地与分布核查；主站：https://paleobiodb.org/ ，Navigator：https://paleobiodb.org/navigator/）
 
 ## 建议核查入口
 
@@ -66,6 +159,12 @@
 - 教学型总体叙述与概念澄清：优先查 UCMP 与 Berkeley Understanding Evolution。
 - 过渡型产地、时间区间和材料分布：优先查 Paleobiology Database。
 - 若后续补具体材料页，应进一步查馆藏入口和代表标本说明。
+
+## 引用说明
+
+- 本页中的“主流过程叙述”应以 Benton、Clack 为主，不宜仅引用科普站点。
+- 本页中的“过渡型案例与产地时间”应尽量用 PBDB 或馆藏入口做交叉核查。
+- 本页中涉及“登陆目的和驱动力”的机制解释，需明确哪些是主流假说、哪些仍属争议。
 
 ## 后续深挖线索
 

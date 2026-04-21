@@ -1,3 +1,84 @@
+﻿---
+schema_version: "2.0"
+type: "clade"
+id: "clade.early-life"
+slug: "early-life"
+title:
+  zh-CN: "早期生命"
+  en: "Early Life"
+  scientific: null
+title_short: "早期生命"
+summary: "前寒武纪主线中的中段支系页，用于解释微生物如何长期主导地球表层系统。"
+status: "active"
+priority: 1
+aliases: []
+naming:
+  canonical_path: "doc/resource/02-clades/early-life.md"
+tags:
+  time:
+    - "archean"
+    - "proterozoic"
+  clade:
+    - "early-life"
+    - "bacteria"
+    - "archaea"
+    - "eukaryotes"
+  event: []
+  ecology: []
+  custom: []
+relations:
+  parent_ids:
+    - "timeline.precambrian-overview"
+    - "timeline.origin-of-life"
+  child_ids: []
+  related_ids:
+    - "timeline.origin-of-life"
+    - "timeline.precambrian-overview"
+    - "event.great-oxidation-event"
+    - "species-card.stromatolite-microbial-mats"
+  predecessor_ids:
+    - "timeline.origin-of-life"
+  successor_ids:
+    - "event.great-oxidation-event"
+time:
+  start_ma: 3500
+  end_ma: 541
+  display: "太古宙至元古宙的长期微生物主导窗口"
+  precision: "range"
+  chrono_labels:
+    - "archean"
+    - "proterozoic"
+geo:
+  modern_regions: []
+  formations: []
+sources:
+  primary_source_ids:
+    - "source.ucmp-history-of-life"
+    - "source.core-books"
+    - "source.open-tree-of-life"
+  support_source_ids:
+    - "source.pbdb"
+assets:
+  featured_asset_ids:
+    - "asset.early-life.clade-overview"
+render:
+  color_key: "precambrian"
+  timeline_group: "precambrian-mainline"
+  sort_key: 20
+  default_view: "article"
+maintenance:
+  authoring_template: "clade-v2"
+  source_check_needed: true
+clade:
+  rank_label: "综合支系综述页"
+  phylo_status: "informal"
+  extant: true
+  parent_clade_id: null
+  sister_clade_ids: []
+  representative_species_ids:
+    - "species-card.stromatolite-microbial-mats"
+---
+
 # 早期生命（Early Life）
 
 ## 基本信息
@@ -14,6 +95,29 @@
 “早期生命”不是严格系统发育意义上的单一自然类群，而是资料库为了组织前寒武纪生命史而设立的综合页面。它的作用是把最早原核生物、产氧光合作用的环境影响、古菌与细菌的分化，以及真核生物出现之前的长期生物圈状态串联起来。
 
 这一页的重点不在于穷尽所有微生物支系，而在于回答三个问题：最早生命是什么样的、它们如何改造地球环境、复杂生命的前提是如何被建立的。换言之，这一页是 `origin-of-life.md` 和后续真核、多细胞化叙事之间的桥。
+
+## 本页定位
+
+- 这页不是“所有微生物类群的百科页”，而是前寒武纪主线中的中段支系样板页。
+- 它的核心职责是把“最早生命线索已经出现”之后，如何进入长期由微生物主导的生物圈写清楚。
+- 它上接 `origin-of-life.md` 的起点问题，下接 `great-oxidation-event.md` 的环境转折，并向 `precambrian-overview.md` 提供前寒武纪主干生物背景。
+
+## 本页核心问题
+
+### 最早生命大致处在什么层次
+
+- 这一层更适合写成“微生物主导的早期生物圈”，而不是过早进入精细分类学。
+- 当前阶段正文应优先保留主流框架，而不是追求最细的系统分层。
+
+### 这些生命如何改造环境
+
+- 这一层重点在产氧光合作用、微生物生态系统扩张和地球化学环境改变。
+- 它与 `great-oxidation-event.md` 的关系是“生物背景 -> 环境转折”。
+
+### 为什么它们对复杂生命前史重要
+
+- 这一层重点在真核生物出现前后的前提条件建立，而不是直接跳到寒武纪。
+- 写法上应突出“前置条件”，避免写成复杂生命已经成熟。
 
 ## 关键特征
 
@@ -76,11 +180,11 @@
 
 ## 核心来源
 
-- UC Museum of Paleontology, *History of Life Through Time*
-- Andrew H. Knoll, *Life on a Young Planet*
-- Michael J. Benton / David A. T. Harper, *Introduction to Paleobiology and the Fossil Record*
-- Open Tree of Life（用于系统位置参照）
-- Paleobiology Database（用于化石记录检索）
+- UC Museum of Paleontology, *History of Life Through Time*（用于早期生命整体叙事与前寒武纪主线综述；链接：https://ucmp.berkeley.edu/exhibits/historyoflife.php）
+- Andrew H. Knoll, *Life on a Young Planet*（用于早期生命、环境改造、真核起源前奏与前寒武纪长期生物圈背景；书目入口：https://press.princeton.edu/books/paperback/9780691165530/life-on-a-young-planet）
+- Michael J. Benton / David A. T. Harper, *Introduction to Paleobiology and the Fossil Record*（用于化石记录、生命史组织框架与微生物证据类型背景；书目入口：https://www.wiley.com/en-us/Introduction+to+Paleobiology+and+the+Fossil+Record%2C+2nd+Edition-p-9781119272854）
+- Open Tree of Life（用于较高层级系统位置参照与谱系浏览；官方入口：http://www.opentreeoflife.org/ ，浏览入口：https://tree.opentreeoflife.org/）
+- Paleobiology Database（用于化石记录、分布与材料检索；主站：https://paleobiodb.org/ ，Navigator：https://paleobiodb.org/navigator/）
 
 ## 建议核查入口
 
@@ -88,6 +192,12 @@
 - 早期生命系统位置和较高层级关系：优先查 Open Tree of Life，但需注意该页是综合组织页而非严格单系群。
 - 化石与分布记录：优先查 Paleobiology Database。
 - 若需补充方法论，可加查 USGS 关于化石、岩石与时间的说明页。
+
+## 引用说明
+
+- 本页是“资料组织型综合页”，不是严格单系群页面，因此 Open Tree of Life 只能辅助说明相关谱系位置，不能把“early-life”本身当成正式系统单元。
+- 本页中的“早期生命如何改造环境”应优先依赖 Knoll 和综合教材，而不是只依据数据库。
+- 本页中的“化石证据与分布”适合用 PBDB 做检索入口，但对极早期争议材料仍需要更进一步的论文核查。
 
 ## 后续深挖线索
 

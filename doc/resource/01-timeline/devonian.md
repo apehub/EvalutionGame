@@ -1,3 +1,92 @@
+﻿---
+schema_version: "2.0"
+type: "timeline"
+id: "timeline.devonian"
+slug: "devonian"
+title:
+  zh-CN: "泥盆纪"
+  en: "Devonian"
+  scientific: null
+title_short: "泥盆纪"
+summary: "古生代关键主轴页，用于连接鱼类辐射、植物扩张与脊椎动物登陆。"
+status: "active"
+priority: 1
+aliases: []
+naming:
+  canonical_path: "doc/resource/01-timeline/devonian.md"
+tags:
+  time:
+    - "devonian"
+  clade:
+    - "fishes"
+    - "plants"
+    - "amphibians"
+  event:
+    - "vertebrate-landfall"
+    - "plant-landfall"
+  ecology:
+    - "marine"
+    - "terrestrial"
+  custom: []
+relations:
+  parent_ids: []
+  child_ids:
+    - "event.plant-landfall"
+    - "event.vertebrate-landfall"
+    - "clade.fishes"
+  related_ids:
+    - "clade.fishes"
+    - "clade.plants"
+    - "clade.amphibians"
+    - "event.plant-landfall"
+    - "event.vertebrate-landfall"
+    - "species-card.tiktaalik-roseae"
+    - "species-card.ichthyostega"
+  predecessor_ids: []
+  successor_ids: []
+time:
+  start_ma: 419.2
+  end_ma: 358.9
+  display: "约 419.2 Ma 到 358.9 Ma"
+  precision: "range"
+  chrono_labels:
+    - "devonian"
+geo:
+  modern_regions: []
+  formations: []
+sources:
+  primary_source_ids:
+    - "source.ics"
+    - "source.ucmp-history-of-life"
+    - "source.core-books"
+  support_source_ids:
+    - "source.usgs"
+assets:
+  featured_asset_ids:
+    - "asset.devonian.timeline-cover"
+render:
+  color_key: "paleozoic"
+  timeline_group: "phanerozoic-mainline"
+  sort_key: 160
+  default_view: "article"
+maintenance:
+  authoring_template: "timeline-v2"
+  source_check_needed: true
+timeline:
+  scale: "deep-time"
+  level: "period-overview"
+  major_clade_ids:
+    - "clade.fishes"
+    - "clade.plants"
+    - "clade.amphibians"
+  major_event_ids:
+    - "event.plant-landfall"
+    - "event.vertebrate-landfall"
+  featured_species_ids:
+    - "species-card.tiktaalik-roseae"
+    - "species-card.ichthyostega"
+---
+
 # 泥盆纪（Devonian）
 
 ## 基本信息
@@ -82,11 +171,17 @@
 
 ## 核心来源
 
-- International Commission on Stratigraphy, *International Chronostratigraphic Chart*
-- UCMP, *History of Life Through Time*
-- Michael J. Benton, *Vertebrate Palaeontology*
-- Jennifer A. Clack, *Gaining Ground*
-- Smithsonian Ocean, *Paleozoic Timeline*
+- International Commission on Stratigraphy, *International Chronostratigraphic Chart*（用于泥盆纪边界、时间框架与标准年代；官方入口：https://stratigraphy.org/ ，当前图表：https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf）
+- UCMP, *History of Life Through Time*（用于教学型生命史主线与时代综述；链接：https://ucmp.berkeley.edu/exhibits/historyoflife.php）
+- Michael J. Benton, *Vertebrate Palaeontology*（用于脊椎动物主线、鱼类辐射和关键演化转折的教材框架；书目入口：https://www.wiley.com/en-us/Vertebrate+Palaeontology,+5th+Edition-p-9781394195084）
+- Jennifer A. Clack, *Gaining Ground*（用于肉鳍鱼到四足动物过渡、泥盆纪近陆环境与四足起源背景；书目入口：https://iupress.org/9780253005373/gaining-ground-second-edition/）
+- Smithsonian Ocean, *Bony Beginnings: The Rise of Vertebrate Innovation in the Devonian*（用于泥盆纪“鱼类时代”教学型概述与读者向导；链接：https://www.ocean.si.edu/through-time/bony-beginnings-rise-vertebrate-innovation-devonian）
+
+## 引用说明
+
+- 本页中的“时间范围”与纪级边界优先由 ICS 支撑。
+- 本页中的“鱼类时代”叙述属于概括性标签，适合用 Smithsonian / UCMP 做教学补充，但不能替代教材和学术综述。
+- 涉及四足起源与登陆背景时，应优先以 Benton、Clack 这类教材或专著为主，再用博物馆或科普站点辅助解释。
 
 ## 争议与说明
 

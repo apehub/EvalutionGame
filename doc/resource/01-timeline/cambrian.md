@@ -1,3 +1,86 @@
+﻿---
+schema_version: "2.0"
+type: "timeline"
+id: "timeline.cambrian"
+slug: "cambrian"
+title:
+  zh-CN: "寒武纪"
+  en: "Cambrian"
+  scientific: null
+title_short: "寒武纪"
+summary: "显生宙起点主轴页，用于统筹寒武纪海洋生态升级、门级多样化与关键事件入口。"
+status: "active"
+priority: 1
+aliases: []
+naming:
+  canonical_path: "doc/resource/01-timeline/cambrian.md"
+tags:
+  time:
+    - "cambrian"
+  clade:
+    - "invertebrates"
+    - "fishes"
+  event:
+    - "cambrian-explosion"
+  ecology:
+    - "marine"
+    - "hard-parts"
+  custom: []
+relations:
+  parent_ids: []
+  child_ids:
+    - "event.cambrian-explosion"
+    - "clade.invertebrates"
+  related_ids:
+    - "timeline.precambrian-overview"
+    - "event.cambrian-explosion"
+    - "clade.invertebrates"
+    - "clade.fishes"
+    - "species-card.anomalocaris-canadensis"
+    - "species-card.trilobita-overview"
+  predecessor_ids: []
+  successor_ids: []
+time:
+  start_ma: 538.8
+  end_ma: 485.4
+  display: "约 538.8 Ma 到 485.4 Ma"
+  precision: "range"
+  chrono_labels:
+    - "cambrian"
+geo:
+  modern_regions: []
+  formations: []
+sources:
+  primary_source_ids:
+    - "source.ics"
+    - "source.ucmp-history-of-life"
+    - "source.core-books"
+  support_source_ids:
+    - "source.usgs"
+assets:
+  featured_asset_ids:
+    - "asset.cambrian.timeline-cover"
+render:
+  color_key: "paleozoic"
+  timeline_group: "phanerozoic-mainline"
+  sort_key: 100
+  default_view: "article"
+maintenance:
+  authoring_template: "timeline-v2"
+  source_check_needed: true
+timeline:
+  scale: "deep-time"
+  level: "period-overview"
+  major_clade_ids:
+    - "clade.invertebrates"
+    - "clade.fishes"
+  major_event_ids:
+    - "event.cambrian-explosion"
+  featured_species_ids:
+    - "species-card.anomalocaris-canadensis"
+    - "species-card.trilobita-overview"
+---
+
 # 寒武纪（Cambrian）
 
 ## 基本信息

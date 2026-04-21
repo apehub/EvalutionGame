@@ -1,3 +1,92 @@
+﻿---
+schema_version: "2.0"
+type: "species-card"
+id: "species-card.stromatolite-microbial-mats"
+slug: "stromatolite-microbial-mats"
+title:
+  zh-CN: "叠层石微生物群"
+  en: "Stromatolite Microbial Mats"
+  scientific: null
+title_short: "叠层石"
+summary: "前寒武纪材料层入口卡，用于提供最稳妥的结构型生命活动证据对象。"
+status: "active"
+priority: 1
+aliases:
+  - "叠层石"
+naming:
+  canonical_path: "doc/resource/04-species-cards/stromatolite-microbial-mats.md"
+tags:
+  time:
+    - "archean"
+    - "proterozoic"
+  clade:
+    - "early-life"
+  event: []
+  ecology:
+    - "marine"
+    - "photosynthesis"
+  custom: []
+relations:
+  parent_ids:
+    - "timeline.precambrian-overview"
+    - "timeline.origin-of-life"
+    - "clade.early-life"
+  child_ids: []
+  related_ids:
+    - "timeline.origin-of-life"
+    - "timeline.precambrian-overview"
+    - "clade.early-life"
+    - "event.great-oxidation-event"
+  predecessor_ids: []
+  successor_ids: []
+time:
+  start_ma: 3500
+  end_ma: 0
+  display: "太古宙至显生宙均有记录，太古宙和元古宙最关键"
+  precision: "range"
+  chrono_labels:
+    - "archean"
+    - "proterozoic"
+geo:
+  modern_regions:
+    - "global"
+  formations: []
+sources:
+  primary_source_ids:
+    - "source.ucmp-history-of-life"
+    - "source.core-books"
+    - "source.pbdb"
+  support_source_ids:
+    - "source.major-museums"
+assets:
+  featured_asset_ids:
+    - "asset.stromatolite.reference-image"
+render:
+  color_key: "precambrian"
+  timeline_group: "precambrian-evidence"
+  sort_key: 40
+  default_view: "article"
+maintenance:
+  authoring_template: "species-card-v2"
+  source_check_needed: true
+species_card:
+  scientific_name: null
+  common_name_zh: "叠层石微生物群"
+  taxon_kind: "trace/community-card"
+  clade_id: "clade.early-life"
+  extinct: false
+  fossil_only: false
+  habitat_tags:
+    - "marine"
+    - "shallow-water"
+  transition_significance:
+    is_transition_form: false
+    bridge_from_ids:
+      - "timeline.origin-of-life"
+    bridge_to_ids:
+      - "event.great-oxidation-event"
+---
+
 # 叠层石微生物群（Stromatolite Microbial Mats）
 
 ## 基本信息
@@ -83,6 +172,25 @@
 - 证明微生物群落已能长期稳定改造沉积环境。
 - 为早期光合作用、浅海生态系统与地球表面生物活动提供重要窗口。
 
+## 证据型代表卡重点
+
+### 为什么它比很多“最早生命传闻”更稳
+
+- 叠层石的价值在于它不是只靠一句“可能有生命”来支撑，而是可以把结构、群落活动和环境背景串成连续证据链。
+- 在资料库写作里，它很适合作为“先给读者一个稳妥抓手”的对象，再把更高争议的微化石或超早年代记录放到补充说明。
+
+### 证据强弱分层
+
+- 第一层：看得见的层状、穹隆状、柱状结构，是最基础的材料层。
+- 第二层：显微结构、颗粒捕获与微生物席活动解释，使其从“像某种构造”提升为“更可能具有生物成因”。
+- 第三层：环境与地球化学线索，用来增强解释稳妥度，但通常不应脱离前两层单独使用。
+
+### 最适合支撑的主干判断
+
+- 早期地表已存在能够长期改造沉积环境的微生物群落。
+- 前寒武纪生命活动可以通过稳定沉积结构留下可追踪记录。
+- 微生物活动与后续环境变化主线之间存在重要连接，但不能把这张卡直接写成“大氧化事件本身”的全部证据。
+
 ## 发现与研究
 
 ### 发现地点与材料
@@ -134,10 +242,16 @@
 
 ## 核心来源
 
-- UCMP, *History of Life Through Time*
-- Andrew H. Knoll, *Life on a Young Planet*
-- Paleobiology Database
-- Smithsonian Ocean, *Ancient Seas*
+- UCMP, *History of Life Through Time*（用于前寒武纪生命史主线与教学型背景说明；链接：https://ucmp.berkeley.edu/exhibits/historyoflife.php）
+- Andrew H. Knoll, *Life on a Young Planet*（用于早期生命证据、前寒武纪环境与叠层石在生命史中的综合解释；书目入口：https://press.princeton.edu/books/paperback/9780691165530/life-on-a-young-planet）
+- Paleobiology Database（用于地点、地层和相关化石记录检索；主站：https://paleobiodb.org/ ，Navigator：https://paleobiodb.org/navigator/）
+- Smithsonian Ocean, *Ancient Seas*（用于浅海环境、海洋生命背景与教学型展示入口；链接：https://ocean.si.edu/through-time/ancient-seas）
+
+## 引用说明
+
+- 本卡中的“结构证据”应先按沉积构造层面保守描述，再说明为什么主流研究倾向于支持生物成因。
+- 本卡中的“早期生命意义”优先依赖 Knoll 一类综合书目与 UCMP 的稳定教学框架，不把单一展示站点当作最终依据。
+- 本卡若要继续增强资料强度，后续应补具体著名叠层石地点或沉积学专题论文，而不是只停留在概念层。
 
 ## 建议核查入口
 
@@ -152,10 +266,10 @@
 - 可继续拆出“最早叠层石争议案例”和“现代类比环境”两类补充页。
 - 若要提升视觉和考据价值，可以整理“叠层石常见形态类型”和“哪些证据支持生物成因”的对照说明。
 - 这张卡片后续很适合与 `origin-of-life.md`、`great-oxidation-event.md` 之间建立更强的双向互链。
-- 当前资料库已补 `doc/resource/05-sources/matrix-precambrian-evidence-types.md`，可直接作为本卡片的证据类型辅助表。
-- 当前资料库已补 `doc/resource/05-sources/matrix-precambrian-writing-phrases.md`，可直接作为本卡片的写法防护表。
-- 当前资料库已补 `doc/resource/05-sources/matrix-stromatolite-misreadings.md`，可直接作为本卡片的专用误写防护表。
-- 当前资料库已补 `doc/resource/05-sources/checklist-stromatolite-materials.md`，可直接作为本卡片写作前的材料层排查表。
+- 当前资料库已补 `doc/resource/09-workbench/matrix-precambrian-evidence-types.md`，可直接作为本卡片的证据类型辅助表。
+- 当前资料库已补 `doc/resource/09-workbench/matrix-precambrian-writing-phrases.md`，可直接作为本卡片的写法防护表。
+- 当前资料库已补 `doc/resource/09-workbench/matrix-stromatolite-misreadings.md`，可直接作为本卡片的专用误写防护表。
+- 当前资料库已补 `doc/resource/09-workbench/checklist-stromatolite-materials.md`，可直接作为本卡片写作前的材料层排查表。
 - 后续若继续精修，本卡最值得补的就是“现代案例清单”和“非生物相似构造排查提示”。
 
 ## 争议与说明

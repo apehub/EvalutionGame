@@ -1,3 +1,61 @@
+---
+schema_version: "2.0"
+type: "timeline"
+id: "timeline.[slug]"
+slug: "[slug]"
+title:
+  zh-CN: "[时代中文名]"
+  en: "[Era/Period Name]"
+  scientific: null
+title_short: "[时代中文名]"
+summary: "一句话说明这张时间主轴页的主题和作用。"
+status: "draft"
+priority: 1
+aliases: []
+naming:
+  canonical_path: "doc/resource/01-timeline/[slug].md"
+tags:
+  time: []
+  clade: []
+  event: []
+  ecology: []
+  custom: []
+relations:
+  parent_ids: []
+  child_ids: []
+  related_ids: []
+  predecessor_ids: []
+  successor_ids: []
+time:
+  start_ma: null
+  end_ma: null
+  display: null
+  precision: "range"
+  chrono_labels: []
+geo:
+  modern_regions: []
+  formations: []
+sources:
+  primary_source_ids: []
+  support_source_ids: []
+assets:
+  featured_asset_ids: []
+render:
+  color_key: null
+  timeline_group: null
+  sort_key: null
+  default_view: "article"
+maintenance:
+  authoring_template: "timeline-v2"
+  source_check_needed: true
+timeline:
+  scale: "deep-time"
+  level: "theme-overview"
+  major_clade_ids: []
+  major_event_ids: []
+  featured_species_ids: []
+---
+
 # [时代中文名]（[Era/Period Name]）
 
 ## 基本信息

@@ -1,0 +1,252 @@
+﻿[
+    {
+        "id":  "timeline.origin-of-life",
+        "type":  "timeline",
+        "title":  "生命起源",
+        "titleShort":  "生命起源",
+        "summary":  "前寒武纪主线中的起点页，用于拆分环境上限、生命线索和起源模型。",
+        "startMa":  4400,
+        "endMa":  3500,
+        "precision":  "range",
+        "group":  "precambrian-mainline",
+        "colorKey":  "precambrian",
+        "relatedIds":  [
+                           "timeline.precambrian-overview",
+                           "clade.early-life",
+                           "event.great-oxidation-event",
+                           "species-card.stromatolite-microbial-mats"
+                       ],
+        "featuredAssetIds":  [
+                                 "asset.origin-of-life.diagram"
+                             ],
+        "path":  "doc/resource/01-timeline/origin-of-life.md"
+    },
+    {
+        "id":  "timeline.precambrian-overview",
+        "type":  "timeline",
+        "title":  "前寒武纪总览",
+        "titleShort":  "前寒武纪",
+        "summary":  "前寒武纪主线的总控页，用于统筹环境地基、生命起点、微生物主导背景和环境转折。",
+        "startMa":  4540,
+        "endMa":  541,
+        "precision":  "range",
+        "group":  "precambrian-mainline",
+        "colorKey":  "precambrian",
+        "relatedIds":  [
+                           "timeline.origin-of-life",
+                           "clade.early-life",
+                           "event.great-oxidation-event",
+                           "species-card.stromatolite-microbial-mats"
+                       ],
+        "featuredAssetIds":  [
+                                 "asset.precambrian-overview.timeline-cover"
+                             ],
+        "path":  "doc/resource/01-timeline/precambrian-overview.md"
+    },
+    {
+        "id":  "clade.early-life",
+        "type":  "clade",
+        "title":  "早期生命",
+        "titleShort":  "早期生命",
+        "summary":  "前寒武纪主线中的中段支系页，用于解释微生物如何长期主导地球表层系统。",
+        "startMa":  3500,
+        "endMa":  541,
+        "precision":  "range",
+        "group":  "precambrian-mainline",
+        "colorKey":  "precambrian",
+        "relatedIds":  [
+                           "timeline.origin-of-life",
+                           "timeline.precambrian-overview",
+                           "event.great-oxidation-event",
+                           "species-card.stromatolite-microbial-mats"
+                       ],
+        "featuredAssetIds":  [
+                                 "asset.early-life.clade-overview"
+                             ],
+        "path":  "doc/resource/02-clades/early-life.md"
+    },
+    {
+        "id":  "event.great-oxidation-event",
+        "type":  "event",
+        "title":  "大氧化事件",
+        "titleShort":  "大氧化事件",
+        "summary":  "前寒武纪主线中的环境转折桥页，用于解释生物背景如何开始显著改写环境主轴。",
+        "startMa":  2400,
+        "endMa":  2000,
+        "precision":  "range",
+        "group":  "precambrian-mainline",
+        "colorKey":  "precambrian",
+        "relatedIds":  [
+                           "timeline.origin-of-life",
+                           "timeline.precambrian-overview",
+                           "clade.early-life",
+                           "species-card.stromatolite-microbial-mats"
+                       ],
+        "featuredAssetIds":  [
+                                 "asset.goe.redox-diagram"
+                             ],
+        "path":  "doc/resource/03-events/great-oxidation-event.md"
+    },
+    {
+        "id":  "species-card.stromatolite-microbial-mats",
+        "type":  "species-card",
+        "title":  "叠层石微生物群",
+        "titleShort":  "叠层石",
+        "summary":  "前寒武纪材料层入口卡，用于提供最稳妥的结构型生命活动证据对象。",
+        "startMa":  3500,
+        "endMa":  0,
+        "precision":  "range",
+        "group":  "precambrian-evidence",
+        "colorKey":  "precambrian",
+        "relatedIds":  [
+                           "timeline.origin-of-life",
+                           "timeline.precambrian-overview",
+                           "clade.early-life",
+                           "event.great-oxidation-event"
+                       ],
+        "featuredAssetIds":  [
+                                 "asset.stromatolite.reference-image"
+                             ],
+        "path":  "doc/resource/04-species-cards/stromatolite-microbial-mats.md"
+    },
+    {
+        "id":  "timeline.cambrian",
+        "type":  "timeline",
+        "title":  "寒武纪",
+        "titleShort":  "寒武纪",
+        "summary":  "显生宙起点主轴页，用于统筹寒武纪海洋生态升级、门级多样化与关键事件入口。",
+        "startMa":  538.8,
+        "endMa":  485.4,
+        "precision":  "range",
+        "group":  "phanerozoic-mainline",
+        "colorKey":  "paleozoic",
+        "relatedIds":  [
+                           "timeline.precambrian-overview",
+                           "event.cambrian-explosion",
+                           "clade.invertebrates",
+                           "clade.fishes",
+                           "species-card.anomalocaris-canadensis",
+                           "species-card.trilobita-overview"
+                       ],
+        "featuredAssetIds":  [
+                                 "asset.cambrian.timeline-cover"
+                             ],
+        "path":  "doc/resource/01-timeline/cambrian.md"
+    },
+    {
+        "id":  "timeline.devonian",
+        "type":  "timeline",
+        "title":  "泥盆纪",
+        "titleShort":  "泥盆纪",
+        "summary":  "古生代关键主轴页，用于连接鱼类辐射、植物扩张与脊椎动物登陆。",
+        "startMa":  419.2,
+        "endMa":  358.9,
+        "precision":  "range",
+        "group":  "phanerozoic-mainline",
+        "colorKey":  "paleozoic",
+        "relatedIds":  [
+                           "clade.fishes",
+                           "clade.plants",
+                           "clade.amphibians",
+                           "event.plant-landfall",
+                           "event.vertebrate-landfall",
+                           "species-card.tiktaalik-roseae",
+                           "species-card.ichthyostega"
+                       ],
+        "featuredAssetIds":  [
+                                 "asset.devonian.timeline-cover"
+                             ],
+        "path":  "doc/resource/01-timeline/devonian.md"
+    },
+    {
+        "id":  "clade.fishes",
+        "type":  "clade",
+        "title":  "鱼类",
+        "titleShort":  "鱼类",
+        "summary":  "脊椎动物主线的综合总览页，用于连接有颌化、肉鳍鱼支线与四足动物过渡。",
+        "startMa":  520,
+        "endMa":  0,
+        "precision":  "approximate",
+        "group":  "clade-mainline",
+        "colorKey":  "vertebrates",
+        "relatedIds":  [
+                           "timeline.cambrian",
+                           "timeline.devonian",
+                           "event.vertebrate-landfall",
+                           "species-card.tiktaalik-roseae",
+                           "species-card.ichthyostega"
+                       ],
+        "featuredAssetIds":  [
+                                 "asset.fishes.clade-overview"
+                             ],
+        "path":  "doc/resource/02-clades/fishes.md"
+    },
+    {
+        "id":  "event.vertebrate-landfall",
+        "type":  "event",
+        "title":  "脊椎动物登陆",
+        "titleShort":  "脊椎动物登陆",
+        "summary":  "脊椎动物主线中的关键转折事件页，用于连接肉鳍鱼近缘支系与早期四足动物。",
+        "startMa":  375,
+        "endMa":  340,
+        "precision":  "approximate",
+        "group":  "event-mainline",
+        "colorKey":  "vertebrates",
+        "relatedIds":  [
+                           "timeline.devonian",
+                           "clade.fishes",
+                           "clade.amphibians",
+                           "species-card.tiktaalik-roseae",
+                           "species-card.ichthyostega"
+                       ],
+        "featuredAssetIds":  [
+                                 "asset.vertebrate-landfall.sequence-diagram"
+                             ],
+        "path":  "doc/resource/03-events/vertebrate-landfall.md"
+    },
+    {
+        "id":  "species-card.tiktaalik-roseae",
+        "type":  "species-card",
+        "title":  "提塔利克鱼",
+        "titleShort":  "提塔利克鱼",
+        "summary":  "脊椎动物登陆主线中的关键过渡代表卡，用于展示鱼类与四足动物特征组合。",
+        "startMa":  375,
+        "endMa":  375,
+        "precision":  "point",
+        "group":  "species-transition",
+        "colorKey":  "vertebrates",
+        "relatedIds":  [
+                           "timeline.devonian",
+                           "clade.fishes",
+                           "event.vertebrate-landfall",
+                           "species-card.ichthyostega"
+                       ],
+        "featuredAssetIds":  [
+                                 "asset.tiktaalik.reference-image"
+                             ],
+        "path":  "doc/resource/04-species-cards/tiktaalik-roseae.md"
+    },
+    {
+        "id":  "species-card.ichthyostega",
+        "type":  "species-card",
+        "title":  "鱼石螈",
+        "titleShort":  "鱼石螈",
+        "summary":  "早期四足动物代表卡，用于承接提塔利克鱼之后更接近陆生四足动物的组合证据。",
+        "startMa":  365,
+        "endMa":  360,
+        "precision":  "approximate",
+        "group":  "species-transition",
+        "colorKey":  "vertebrates",
+        "relatedIds":  [
+                           "timeline.devonian",
+                           "clade.fishes",
+                           "clade.amphibians",
+                           "event.vertebrate-landfall",
+                           "species-card.tiktaalik-roseae"
+                       ],
+        "featuredAssetIds":  [
+                                 "asset.ichthyostega.reference-image"
+                             ],
+        "path":  "doc/resource/04-species-cards/ichthyostega.md"
+    }
+]

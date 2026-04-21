@@ -1,3 +1,86 @@
+﻿---
+schema_version: "2.0"
+type: "timeline"
+id: "timeline.precambrian-overview"
+slug: "precambrian-overview"
+title:
+  zh-CN: "前寒武纪总览"
+  en: "Precambrian Overview"
+  scientific: null
+title_short: "前寒武纪"
+summary: "前寒武纪主线的总控页，用于统筹环境地基、生命起点、微生物主导背景和环境转折。"
+status: "active"
+priority: 1
+aliases: []
+naming:
+  canonical_path: "doc/resource/01-timeline/precambrian-overview.md"
+tags:
+  time:
+    - "hadean"
+    - "archean"
+    - "proterozoic"
+  clade:
+    - "early-life"
+  event: []
+  ecology:
+    - "multicellularity"
+  custom: []
+relations:
+  parent_ids: []
+  child_ids:
+    - "timeline.origin-of-life"
+    - "clade.early-life"
+    - "event.great-oxidation-event"
+    - "species-card.stromatolite-microbial-mats"
+  related_ids:
+    - "timeline.origin-of-life"
+    - "clade.early-life"
+    - "event.great-oxidation-event"
+    - "species-card.stromatolite-microbial-mats"
+  predecessor_ids: []
+  successor_ids:
+    - "timeline.origin-of-life"
+time:
+  start_ma: 4540
+  end_ma: 541
+  display: "约 4.54 Ga 到 541 Ma"
+  precision: "range"
+  chrono_labels:
+    - "hadean"
+    - "archean"
+    - "proterozoic"
+geo:
+  modern_regions: []
+  formations: []
+sources:
+  primary_source_ids:
+    - "source.ics"
+    - "source.ucmp-history-of-life"
+    - "source.core-books"
+  support_source_ids:
+    - "source.usgs"
+assets:
+  featured_asset_ids:
+    - "asset.precambrian-overview.timeline-cover"
+render:
+  color_key: "precambrian"
+  timeline_group: "precambrian-mainline"
+  sort_key: 0
+  default_view: "article"
+maintenance:
+  authoring_template: "timeline-v2"
+  source_check_needed: true
+timeline:
+  scale: "deep-time"
+  level: "theme-overview"
+  major_clade_ids:
+    - "clade.early-life"
+  major_event_ids:
+    - "event.great-oxidation-event"
+  featured_species_ids:
+    - "species-card.stromatolite-microbial-mats"
+---
+
 # 前寒武纪总览（Precambrian Overview）
 
 ## 基本信息
@@ -110,61 +193,25 @@
 - 真核生物起源。
 - 元古宙冰期与埃迪卡拉生物群兴起。
 
-## 关键节点分层
-
-### 冥古宙
-
-- 重点是地球形成后何时出现液态水、稳定地壳与潜在宜居条件。
-- 这一层应以地球环境和地学约束为主，不宜直接写成生命已经出现。
-
-### 太古宙
-
-- 重点是最早生命证据、原核生物主导和早期微生物生态系统。
-- 这一层最需要区分“较稳妥证据”和“更激进声称”。
-
-### 元古宙
-
-- 重点是大氧化事件、真核生物出现和多细胞化前奏。
-- 这一层最容易把多个中间过程写得过于线性，应保持“长期转变”的表述。
-
-## 本页写作优先级
-
-- 先写时间和环境主轴。
-- 再写微生物主导与环境改造。
-- 最后写复杂性提升的几个关键节点。
-- 若某一段只能靠争议较大的解释支撑，应降级为说明项或后续专题入口。
-
 ## 对后续演化的意义
 
 - 为寒武纪动物多样化准备了氧气、生物地球化学循环与复杂细胞基础。
 - 奠定了后续海洋食物网和生态工程能力的底层条件。
 - 使“复杂生命为何能出现”成为一个可追踪的连续问题，而非寒武纪的突然奇迹。
 
-## 本页与相关条目的分工
-
-- `precambrian-overview.md` 负责控制全局阅读顺序和主线导航。
-- `origin-of-life.md` 负责解释环境条件、最早生命线索与起源模型如何进入主线。
-- `early-life.md` 负责解释微生物世界如何长期成为地球表层系统的主导背景。
-- `great-oxidation-event.md` 负责解释这种背景何时开始显著改写环境主轴。
-- `stromatolite-microbial-mats.md` 负责提供最典型、最可写的结构型材料层入口。
-
 ## 可关联条目
 
 - 相关类群：`early-life.md` `plants.md`
 - 相关事件：`great-oxidation-event.md` `cambrian-explosion.md`
-- 相关物种：`stromatolite-microbial-mats.md`（适合作为前寒武纪微生物生态系统的代表性材料层入口）
-
-其中 `origin-of-life.md` 更适合作为本页“环境地基如何进入生命主线”的起点页入口。
-其中 `early-life.md` 更适合作为本页“微生物主导世界如何成为前寒武纪长期背景”的中段支系页入口。
-其中 `great-oxidation-event.md` 更适合作为“微生物主导世界如何开始显著改写环境主轴”的桥页入口。
+- 相关物种：`stromatolite-microbial-mats.md`
 
 ## 核心来源
 
-- International Commission on Stratigraphy, *International Chronostratigraphic Chart*
-- UC Museum of Paleontology, *History of Life Through Time*
-- UCMP, *Geologic Time*
-- Andrew H. Knoll, *Life on a Young Planet*
-- Michael J. Benton / David A. T. Harper, *Introduction to Paleobiology and the Fossil Record*
+- International Commission on Stratigraphy, *International Chronostratigraphic Chart*（用于前寒武纪总时间框架与边界；官方入口：https://stratigraphy.org/ ，当前图表：https://stratigraphy.org/ICSchart/ChronostratChart2024-12.pdf）
+- UC Museum of Paleontology, *History of Life Through Time*（用于前寒武纪生命史主线与教学型综述；链接：https://ucmp.berkeley.edu/exhibits/historyoflife.php）
+- UCMP, *Geologic Time Scale / Web Time Machine*（用于前寒武纪内部层次、宙级浏览与教学型时间导航；链接：https://ucmp.berkeley.edu/help/timeform.php）
+- Andrew H. Knoll, *Life on a Young Planet*（用于前寒武纪环境变化、早期生命、真核出现与多细胞化前奏；书目入口：https://press.princeton.edu/books/paperback/9780691165530/life-on-a-young-planet）
+- Michael J. Benton / David A. T. Harper, *Introduction to Paleobiology and the Fossil Record*（用于生命史主线、化石记录与前寒武纪到显生宙过渡的综合教材框架；书目入口：https://www.wiley.com/en-us/Introduction+to+Paleobiology+and+the+Fossil+Record%2C+2nd+Edition-p-9781119272854）
 
 ## 建议核查入口
 
@@ -173,24 +220,17 @@
 - 早期生命、真核起源与多细胞化前奏：优先查 Knoll 的前寒武纪专著。
 - 若要补地球化学背景，可进一步对照 USGS 的化石、岩石与时间方法说明。
 
+## 引用说明
+
+- 本页中的“总时间框架”优先用 ICS，UCMP 时间页只作为教学型导航补充。
+- 本页中的“前寒武纪生命史总叙事”适合用 UCMP 做读者友好综述，但若涉及具体年代或机制争议，仍应回到 Knoll 或教材框架。
+- 本页中的“真核出现、多细胞化前奏、埃迪卡拉前史”应优先写成主流框架，不把任何单一网站表述当作最终定论。
+
 ## 后续深挖线索
 
 - 可拆出“真核起源”“元古宙冰期”“埃迪卡拉生物群”三个专题页。
 - 可为“前寒武纪末复杂生命”增加更具体代表化石或化石群卡片。
 - 若要提高考据强度，建议补一版“前寒武纪关键节点时间表”，并注明每个节点的证据等级。
-- 当前资料库已补 `doc/resource/05-sources/matrix-precambrian-key-nodes.md`，可直接作为这一页的时间框架辅助表。
-- 当前资料库已补 `doc/resource/05-sources/matrix-precambrian-evidence-types.md`，可直接作为这一页的证据类型辅助表。
-- 当前资料库已补 `doc/resource/05-sources/matrix-precambrian-writing-phrases.md`，可直接作为这一页的写法防护表。
-- 当前资料库已补 `doc/resource/05-sources/matrix-precambrian-mainline-reading-order.md`，可直接作为这一页的主线导航辅助表。
-- 当前资料库已补 `doc/resource/05-sources/matrix-precambrian-mainline-misreadings.md`，可直接作为这一页的主线职责误写防护表。
-- 当前资料库已补 `doc/resource/05-sources/matrix-precambrian-core-pages-toolmap.md`，可直接作为前寒武纪核心页面的工具总入口。
-- 当前资料库已补 `doc/resource/05-sources/matrix-precambrian-topic-entrypoints.md`，可直接作为前寒武纪不同内容主题的反查入口表。
-
-## 待补说明
-
-- 待补前寒武纪关键节点时间表。
-- 待补“真核起源”和“多细胞化前奏”的专题拆分。
-- 待补元古宙冰期与埃迪卡拉生物群的更具体代表案例。
 
 ## 争议与说明
 

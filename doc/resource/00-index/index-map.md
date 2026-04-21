@@ -2,6 +2,18 @@
 
 本页用于追踪资料库中“已建条目”和“下一步待建条目”，避免新内容落地后成为孤儿页。
 
+资料库 2.0 起，本页继续承担“人工总览入口”，而更适合被程序消费的注册信息已开始迁入：
+
+- `doc/resource/06-registry/entity-index.md`
+- `doc/resource/06-registry/timeline-index.md`
+- `doc/resource/06-registry/tag-index.md`
+- `doc/resource/06-registry/relation-index.md`
+
+如果当前要做的不是补单篇条目，而是先判断“哪个大面还没立起来”，建议先配合查看：
+
+- `surface-map.md`
+- `surface-backlog.md`
+
 ## 时间主轴
 
 ### 已建
@@ -74,3 +86,5 @@
 - 新增条目前，先在本页登记到“待建”区。
 - 条目落地后，立即从“待建”移到“已建”。
 - 若一个条目长期缺少反向链接，应优先补互链而不是继续扩张数量。
+- 若要给条目分配稳定 `id`、路径和状态，优先同步登记到 `doc/resource/06-registry/entity-index.md`。
+- 若要补时间、标签或关系层索引，优先同步更新 `06-registry/` 下对应表。
