@@ -41,6 +41,9 @@
 - `matrix-precambrian-topic-entrypoints.md`：前寒武纪问题主题反查表
 - `matrix-library-mainline-roadmap.md`：全库按“面 -> 线 -> 点”推进时的主线路线图
 - `matrix-surface-support-gaps.md`：从“面”的角度看当前缺的是正文还是支撑层
+- `matrix-geologic-timescale-mainline.md`：完整地质时间骨架面的线级拆分图
+- `matrix-geologic-timescale-build-order.md`：时间骨架页的待建顺序表
+- `matrix-paleozoic-mainline-page-roles.md`：古生代连续骨架线的页面职责分工表
 
 ## 使用原则
 
@@ -55,3 +58,5 @@
 - 想从自然语言问题或主题切入前寒武纪：先看 `matrix-precambrian-question-phrases.md` 与 `matrix-precambrian-topic-entrypoints.md`
 - 想先决定全库下一轮该补哪个大面、哪条主线：先看 `matrix-library-mainline-roadmap.md`
 - 想判断某个大面当前最缺的是正文、来源入口还是工作台支撑：先看 `matrix-surface-support-gaps.md`
+- 想先拆“完整地质时间骨架面”的线，再决定补哪些纪级页：先看 `matrix-geologic-timescale-mainline.md` 与 `matrix-geologic-timescale-build-order.md`
+- 想继续把古生代连续骨架线往下拆到具体页面职责：先看 `matrix-paleozoic-mainline-page-roles.md`

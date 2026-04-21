@@ -65,6 +65,7 @@
 - 状态：待建立
 - 原因：当前时间主轴仍是关键节点拼接，缺连续年代骨架。
 - 优先级：最高
+- 当前线级入口：`../09-workbench/matrix-geologic-timescale-mainline.md`、`../09-workbench/matrix-geologic-timescale-build-order.md`
 
 ### 恐龙主干
 

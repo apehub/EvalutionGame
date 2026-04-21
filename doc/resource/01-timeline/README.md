@@ -29,3 +29,16 @@
 5. `permian-end-crisis.md`
 6. `mesozoic-overview.md`
 7. `cenozoic-overview.md`
+
+## 如果要补完整时间骨架
+
+若当前目标不是继续补零散时间页，而是先把“完整地质时间骨架面”拆成清晰主线，建议先配合查看：
+
+- `../09-workbench/matrix-geologic-timescale-mainline.md`
+- `../09-workbench/matrix-geologic-timescale-build-order.md`
+
+按当前资料库状态，最应优先补的是：
+
+1. 古生代连续骨架：`ordovician.md`、`silurian.md`、`carboniferous.md`、`permian.md`
+2. 中生代纪级展开：`triassic.md`、`jurassic.md`、`cretaceous.md`
+3. 新生代纪级展开：`paleogene.md`、`neogene.md`、`quaternary.md`
