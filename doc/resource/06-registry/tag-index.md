@@ -11,13 +11,13 @@
 | `proterozoic` | `timeline.precambrian-overview` / `clade.early-life` / `event.great-oxidation-event` / `species-card.stromatolite-microbial-mats` |
 | `cambrian` | `timeline.cambrian` / `clade.invertebrates` / `event.cambrian-explosion` / `species-card.anomalocaris-canadensis` / `species-card.trilobita-overview` |
 | `ordovician` | `timeline.paleozoic-overview` / `timeline.ordovician` |
-| `silurian` | `timeline.paleozoic-overview` / `timeline.silurian` / `event.plant-landfall` |
-| `devonian` | `timeline.devonian` / `clade.fishes` / `clade.amphibians` / `event.vertebrate-landfall` / `event.plant-landfall` / `species-card.tiktaalik-roseae` / `species-card.ichthyostega` |
-| `carboniferous` | `timeline.paleozoic-overview` / `timeline.carboniferous` / `event.vertebrate-landfall` |
-| `permian` | `timeline.paleozoic-overview` / `timeline.permian` / `timeline.permian-end-crisis` |
-| `triassic` | `timeline.triassic` / `timeline.mesozoic-overview` / `clade.reptiles` / `clade.mammals` |
-| `jurassic` | `timeline.jurassic` / `timeline.mesozoic-overview` / `clade.birds` |
-| `cretaceous` | `timeline.cretaceous` / `timeline.mesozoic-overview` / `clade.birds` |
+| `silurian` | `timeline.paleozoic-overview` / `timeline.silurian` / `event.plant-landfall` / `clade.early-land-plants` |
+| `devonian` | `timeline.devonian` / `clade.fishes` / `clade.amphibians` / `clade.early-land-plants` / `clade.vascular-plants` / `clade.forest-formation` / `event.vertebrate-landfall` / `event.plant-landfall` / `species-card.tiktaalik-roseae` / `species-card.ichthyostega` |
+| `carboniferous` | `timeline.paleozoic-overview` / `timeline.carboniferous` / `clade.forest-formation` / `clade.seed-plants` / `event.vertebrate-landfall` |
+| `permian` | `timeline.paleozoic-overview` / `timeline.permian` / `timeline.permian-end-crisis` / `clade.seed-plants` / `clade.synapsids` |
+| `triassic` | `timeline.triassic` / `timeline.mesozoic-overview` / `clade.synapsids` / `clade.archosaurs` / `clade.reptiles` / `clade.mammals` |
+| `jurassic` | `timeline.jurassic` / `timeline.mesozoic-overview` / `clade.archosaurs` / `clade.birds` |
+| `cretaceous` | `timeline.cretaceous` / `timeline.mesozoic-overview` / `clade.archosaurs` / `clade.birds` |
 | `paleogene` | `timeline.paleogene` / `timeline.cenozoic-overview` / `event.mammal-radiation` |
 | `neogene` | `timeline.neogene` / `timeline.cenozoic-overview` / `event.mammal-radiation` |
 | `quaternary` | `timeline.quaternary` / `timeline.cenozoic-overview` |
@@ -28,14 +28,14 @@
 | --- | --- |
 | `early-life` | `timeline.origin-of-life` / `timeline.precambrian-overview` / `clade.early-life` / `event.great-oxidation-event` / `species-card.stromatolite-microbial-mats` |
 | `eukaryotes` | `clade.early-life` / `clade.eukaryotes` |
-| `plants` | `clade.eukaryotes` / `clade.plants` / `event.plant-landfall` / `timeline.devonian` / `timeline.cretaceous` |
+| `plants` | `clade.eukaryotes` / `clade.plants` / `clade.early-land-plants` / `clade.vascular-plants` / `clade.forest-formation` / `clade.seed-plants` / `event.plant-landfall` / `timeline.devonian` / `timeline.cretaceous` |
 | `invertebrates` | `clade.invertebrates` / `event.cambrian-explosion` / `timeline.paleozoic-overview` / `timeline.cambrian` / `timeline.ordovician` |
 | `vertebrates` | `clade.vertebrates` / `clade.fishes` / `timeline.cambrian` / `timeline.devonian` |
 | `fishes` | `clade.vertebrates` / `clade.fishes` / `event.vertebrate-landfall` / `timeline.paleozoic-overview` / `timeline.cambrian` / `timeline.ordovician` / `timeline.silurian` / `timeline.devonian` / `species-card.tiktaalik-roseae` / `species-card.ichthyostega` |
 | `amphibians` | `clade.vertebrates` / `clade.amphibians` / `event.vertebrate-landfall` / `timeline.paleozoic-overview` / `timeline.devonian` / `timeline.carboniferous` / `species-card.ichthyostega` |
-| `reptiles` | `clade.amniotes` / `clade.reptiles` / `timeline.paleozoic-overview` / `timeline.carboniferous` / `timeline.permian` / `timeline.mesozoic-overview` / `timeline.triassic` / `timeline.jurassic` / `timeline.cretaceous` |
-| `birds` | `clade.reptiles` / `clade.birds` / `timeline.mesozoic-overview` / `timeline.jurassic` / `timeline.cretaceous` / `timeline.cenozoic-overview` / `timeline.paleogene` / `timeline.neogene` / `timeline.quaternary` / `species-card.archaeopteryx-lithographica` |
-| `mammals` | `clade.amniotes` / `clade.mammals` / `timeline.permian` / `timeline.mesozoic-overview` / `timeline.triassic` / `timeline.jurassic` / `timeline.cretaceous` / `timeline.cenozoic-overview` / `timeline.paleogene` / `timeline.neogene` / `timeline.quaternary` / `event.mammal-radiation` / `species-card.morganucodon` |
+| `reptiles` | `clade.archosaurs` / `clade.amniotes` / `clade.reptiles` / `timeline.paleozoic-overview` / `timeline.carboniferous` / `timeline.permian` / `timeline.mesozoic-overview` / `timeline.triassic` / `timeline.jurassic` / `timeline.cretaceous` |
+| `birds` | `clade.archosaurs` / `clade.reptiles` / `clade.birds` / `timeline.mesozoic-overview` / `timeline.jurassic` / `timeline.cretaceous` / `timeline.cenozoic-overview` / `timeline.paleogene` / `timeline.neogene` / `timeline.quaternary` / `species-card.archaeopteryx-lithographica` |
+| `mammals` | `clade.synapsids` / `clade.amniotes` / `clade.mammals` / `timeline.permian` / `timeline.mesozoic-overview` / `timeline.triassic` / `timeline.jurassic` / `timeline.cretaceous` / `timeline.cenozoic-overview` / `timeline.paleogene` / `timeline.neogene` / `timeline.quaternary` / `event.mammal-radiation` / `species-card.morganucodon` |
 
 ## 事件标签
 
@@ -54,10 +54,10 @@
 | --- | --- |
 | `marine` | `timeline.origin-of-life` / `timeline.paleozoic-overview` / `timeline.cambrian` / `timeline.ordovician` / `timeline.silurian` / `timeline.devonian` / `timeline.triassic` / `timeline.jurassic` / `timeline.cretaceous` / `clade.invertebrates` / `clade.fishes` / `species-card.stromatolite-microbial-mats` / `species-card.anomalocaris-canadensis` |
 | `freshwater` | `clade.fishes` / `event.vertebrate-landfall` / `timeline.devonian` / `species-card.tiktaalik-roseae` / `species-card.ichthyostega` |
-| `terrestrial` | `clade.plants` / `event.plant-landfall` / `event.vertebrate-landfall` / `timeline.silurian` / `timeline.devonian` / `timeline.carboniferous` / `timeline.permian` / `timeline.triassic` / `timeline.jurassic` / `timeline.cretaceous` / `species-card.tiktaalik-roseae` / `species-card.ichthyostega` |
-| `photosynthesis` | `event.great-oxidation-event` / `species-card.stromatolite-microbial-mats` / `clade.early-life` |
+| `terrestrial` | `clade.synapsids` / `clade.archosaurs` / `clade.plants` / `clade.early-land-plants` / `clade.vascular-plants` / `clade.forest-formation` / `clade.seed-plants` / `event.plant-landfall` / `event.vertebrate-landfall` / `timeline.silurian` / `timeline.devonian` / `timeline.carboniferous` / `timeline.permian` / `timeline.triassic` / `timeline.jurassic` / `timeline.cretaceous` / `species-card.tiktaalik-roseae` / `species-card.ichthyostega` |
+| `photosynthesis` | `event.great-oxidation-event` / `species-card.stromatolite-microbial-mats` / `clade.early-life` / `clade.early-land-plants` / `clade.vascular-plants` / `clade.forest-formation` / `clade.seed-plants` |
 | `hard-parts` | `timeline.cambrian` |
 | `multicellularity` | `timeline.precambrian-overview` |
-| `amniotic-egg` | `timeline.paleozoic-overview` / `timeline.carboniferous` / `timeline.permian` / `clade.amniotes` |
+| `amniotic-egg` | `timeline.paleozoic-overview` / `timeline.carboniferous` / `timeline.permian` / `clade.amniotes` / `clade.synapsids` / `clade.archosaurs` |
 | `flight` | `clade.birds` / `timeline.jurassic` / `timeline.cretaceous` |
 | `adaptive-radiation` | `event.mammal-radiation` / `timeline.cenozoic-overview` / `timeline.paleogene` / `timeline.neogene` |

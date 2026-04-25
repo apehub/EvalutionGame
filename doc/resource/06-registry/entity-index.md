@@ -36,11 +36,17 @@
 | `clade.eukaryotes` | `clade` | `doc/resource/02-clades/eukaryotes.md` | `draft` | 真核生物主干桥梁页 |
 | `clade.animals` | `clade` | `doc/resource/02-clades/animals.md` | `draft` | 动物主干桥梁页 |
 | `clade.plants` | `clade` | `doc/resource/02-clades/plants.md` | `active` | 植物主线 |
+| `clade.early-land-plants` | `clade` | `doc/resource/02-clades/early-land-plants.md` | `draft` | 植物第二层桥页：登陆后初期陆生阶段 |
+| `clade.vascular-plants` | `clade` | `doc/resource/02-clades/vascular-plants.md` | `draft` | 植物第二层桥页：维管组织升级 |
+| `clade.forest-formation` | `clade` | `doc/resource/02-clades/forest-formation.md` | `draft` | 植物第二层生态桥页：森林化 |
+| `clade.seed-plants` | `clade` | `doc/resource/02-clades/seed-plants.md` | `draft` | 植物第二层桥页：种子策略与后段扩张 |
 | `clade.invertebrates` | `clade` | `doc/resource/02-clades/invertebrates.md` | `active` | 无脊椎动物主线 |
 | `clade.vertebrates` | `clade` | `doc/resource/02-clades/vertebrates.md` | `draft` | 脊椎动物主干桥梁页 |
 | `clade.fishes` | `clade` | `doc/resource/02-clades/fishes.md` | `active` | 鱼类主线 |
 | `clade.amphibians` | `clade` | `doc/resource/02-clades/amphibians.md` | `active` | 两栖类主线 |
 | `clade.amniotes` | `clade` | `doc/resource/02-clades/amniotes.md` | `draft` | 羊膜动物主干桥梁页 |
+| `clade.synapsids` | `clade` | `doc/resource/02-clades/synapsids.md` | `draft` | 哺乳类前史桥页：合弓类 |
+| `clade.archosaurs` | `clade` | `doc/resource/02-clades/archosaurs.md` | `draft` | 鸟类前史桥页：主龙类 |
 | `clade.reptiles` | `clade` | `doc/resource/02-clades/reptiles.md` | `active` | 爬行动物主线 |
 | `clade.birds` | `clade` | `doc/resource/02-clades/birds.md` | `active` | 鸟类主线 |
 | `clade.mammals` | `clade` | `doc/resource/02-clades/mammals.md` | `active` | 哺乳类主线 |

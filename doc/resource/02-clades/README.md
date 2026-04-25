@@ -12,6 +12,10 @@
 ### 植物与非动物支系
 
 - `plants.md`：植物主线与植物登陆
+- `early-land-plants.md`：植物登陆后的第一层桥页
+- `vascular-plants.md`：维管组织升级与陆地体制扩展
+- `forest-formation.md`：泥盆纪到石炭纪的森林化生态桥页
+- `seed-plants.md`：种子策略与植物后段长期扩张
 - `animals.md`：动物主线与无脊椎 / 脊椎动物分化桥页
 
 ### 动物主线
@@ -21,6 +25,8 @@
 - `fishes.md`：鱼类总览
 - `amphibians.md`：两栖类与四足动物早期形态
 - `amniotes.md`：羊膜动物主线桥页
+- `synapsids.md`：哺乳类前史的主干桥页
+- `archosaurs.md`：主龙类与鸟类前史的主干桥页
 - `reptiles.md`：爬行动物与羊膜动物主线
 - `birds.md`：鸟类起源与扩张
 - `mammals.md`：哺乳类起源、扩张与新生代辐射

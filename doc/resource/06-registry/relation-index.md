@@ -62,6 +62,31 @@
 | `clade.amniotes` | `child` | `clade.reptiles` | 羊膜动物通向爬行动物主线 |
 | `clade.amniotes` | `child` | `clade.mammals` | 羊膜动物通向哺乳类主线 |
 | `clade.reptiles` | `child` | `clade.birds` | 爬行动物主线中接出鸟类支线 |
+| `clade.amniotes` | `child` | `clade.synapsids` | 羊膜动物主线通向哺乳类前史桥页 |
+| `clade.synapsids` | `successor` | `clade.mammals` | 从合弓类桥页进入哺乳类总览 |
+| `clade.amniotes` | `child` | `clade.archosaurs` | 羊膜动物主线通向主龙类桥页 |
+| `clade.archosaurs` | `successor` | `clade.birds` | 从主龙类桥页进入鸟类总览 |
+| `clade.synapsids` | `related` | `timeline.permian` | 合弓类主线关键时间窗口 |
+| `clade.synapsids` | `related` | `timeline.triassic` | 合弓类后段过渡窗口 |
+| `clade.archosaurs` | `related` | `timeline.triassic` | 主龙类起步关键窗口 |
+| `clade.archosaurs` | `related` | `timeline.jurassic` | 主龙类中生代展开窗口 |
+| `clade.archosaurs` | `related` | `timeline.cretaceous` | 主龙类后段窗口 |
+
+## 植物主线
+
+| from | relation | to | 说明 |
+| --- | --- | --- | --- |
+| `clade.plants` | `child` | `clade.early-land-plants` | 植物总览页下接植物登陆后的第一层桥页 |
+| `clade.early-land-plants` | `successor` | `clade.vascular-plants` | 从植物登陆后的早期陆生阶段进入维管组织升级阶段 |
+| `clade.vascular-plants` | `successor` | `clade.forest-formation` | 从结构升级进入森林化生态系统阶段 |
+| `clade.forest-formation` | `successor` | `clade.seed-plants` | 从森林化进入种子策略主导的后段植物主线 |
+| `clade.early-land-plants` | `related` | `event.plant-landfall` | 连接植物登陆事件页 |
+| `clade.early-land-plants` | `related` | `timeline.silurian` | 对应植物登陆关键时间窗口 |
+| `clade.vascular-plants` | `related` | `timeline.devonian` | 对应维管植物显著扩张窗口 |
+| `clade.forest-formation` | `related` | `timeline.devonian` | 泥盆纪森林化背景 |
+| `clade.forest-formation` | `related` | `timeline.carboniferous` | 石炭纪森林生态持续强化 |
+| `clade.seed-plants` | `related` | `timeline.carboniferous` | 种子植物后段形成窗口 |
+| `clade.seed-plants` | `related` | `timeline.permian` | 种子植物后段扩张关键时间窗口 |
 
 ## 登陆主线
 
