@@ -7,16 +7,20 @@
 ### 早期生命
 
 - `early-life.md`：原核生物、真核生物出现与早期生命格局
+- `eukaryotes.md`：真核生物与复杂细胞主线桥页
 
 ### 植物与非动物支系
 
 - `plants.md`：植物主线与植物登陆
+- `animals.md`：动物主线与无脊椎 / 脊椎动物分化桥页
 
 ### 动物主线
 
 - `invertebrates.md`：无脊椎动物总览
+- `vertebrates.md`：脊椎动物主线桥页
 - `fishes.md`：鱼类总览
 - `amphibians.md`：两栖类与四足动物早期形态
+- `amniotes.md`：羊膜动物主线桥页
 - `reptiles.md`：爬行动物与羊膜动物主线
 - `birds.md`：鸟类起源与扩张
 - `mammals.md`：哺乳类起源、扩张与新生代辐射

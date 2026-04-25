@@ -22,11 +22,18 @@
 | `timeline.paleozoic-overview` | `child` | `timeline.carboniferous` | 古生代总代入口下的纪级骨架 |
 | `timeline.paleozoic-overview` | `child` | `timeline.permian` | 古生代总代入口下的纪级骨架 |
 | `timeline.paleozoic-overview` | `successor` | `timeline.mesozoic-overview` | 古生代总代进入中生代总代 |
+| `timeline.mesozoic-overview` | `child` | `timeline.triassic` | 中生代总代入口下的第一纪 |
 | `timeline.triassic` | `successor` | `timeline.jurassic` | 时间主轴下一纪 |
 | `timeline.jurassic` | `successor` | `timeline.cretaceous` | 时间主轴下一纪 |
+| `timeline.mesozoic-overview` | `child` | `timeline.jurassic` | 中生代总代入口下的纪级骨架 |
+| `timeline.mesozoic-overview` | `child` | `timeline.cretaceous` | 中生代总代入口下的纪级骨架 |
+| `timeline.mesozoic-overview` | `successor` | `timeline.cenozoic-overview` | 中生代总代进入新生代总代 |
 | `timeline.cretaceous` | `successor` | `timeline.paleogene` | 中生代进入新生代 |
+| `timeline.cenozoic-overview` | `child` | `timeline.paleogene` | 新生代总代入口下的第一纪 |
 | `timeline.paleogene` | `successor` | `timeline.neogene` | 时间主轴下一纪 |
+| `timeline.cenozoic-overview` | `child` | `timeline.neogene` | 新生代总代入口下的纪级骨架 |
 | `timeline.neogene` | `successor` | `timeline.quaternary` | 时间主轴下一纪 |
+| `timeline.cenozoic-overview` | `child` | `timeline.quaternary` | 新生代总代入口下的纪级骨架 |
 
 ## 前寒武纪主线
 
@@ -34,10 +41,27 @@
 | --- | --- | --- | --- |
 | `timeline.precambrian-overview` | `successor` | `timeline.origin-of-life` | 从总控页进入起点页 |
 | `timeline.origin-of-life` | `successor` | `clade.early-life` | 从起点页进入微生物主导背景 |
+| `clade.early-life` | `successor` | `clade.eukaryotes` | 从微生物主导背景进入复杂细胞桥页 |
+| `clade.eukaryotes` | `successor` | `clade.animals` | 从真核生物进入动物主线桥页 |
 | `clade.early-life` | `successor` | `event.great-oxidation-event` | 从生物背景进入环境转折 |
 | `timeline.origin-of-life` | `related` | `species-card.stromatolite-microbial-mats` | 从生命线索进入材料层证据 |
 | `clade.early-life` | `related` | `species-card.stromatolite-microbial-mats` | 代表性结构证据卡 |
 | `event.great-oxidation-event` | `related` | `species-card.stromatolite-microbial-mats` | 产氧微生物生态系统背景卡 |
+
+## 类群主干桥线
+
+| from | relation | to | 说明 |
+| --- | --- | --- | --- |
+| `clade.eukaryotes` | `child` | `clade.plants` | 真核生物分出植物主线 |
+| `clade.eukaryotes` | `child` | `clade.animals` | 真核生物分出动物主线 |
+| `clade.animals` | `child` | `clade.invertebrates` | 动物主线中的无脊椎动物入口 |
+| `clade.animals` | `child` | `clade.vertebrates` | 动物主线中的脊椎动物桥页 |
+| `clade.vertebrates` | `child` | `clade.fishes` | 脊椎动物主线中的鱼类入口 |
+| `clade.vertebrates` | `child` | `clade.amphibians` | 脊椎动物主线中的两栖类入口 |
+| `clade.vertebrates` | `child` | `clade.amniotes` | 脊椎动物主线中的羊膜动物桥页 |
+| `clade.amniotes` | `child` | `clade.reptiles` | 羊膜动物通向爬行动物主线 |
+| `clade.amniotes` | `child` | `clade.mammals` | 羊膜动物通向哺乳类主线 |
+| `clade.reptiles` | `child` | `clade.birds` | 爬行动物主线中接出鸟类支线 |
 
 ## 登陆主线
 

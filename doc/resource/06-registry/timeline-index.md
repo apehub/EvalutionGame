@@ -49,4 +49,10 @@
 | `375-340 Ma` | `timeline.devonian` | `clade.fishes` / `clade.amphibians` | `event.vertebrate-landfall` | `species-card.tiktaalik-roseae` / `species-card.ichthyostega` |
 | `365-360 Ma` | `timeline.devonian` | `clade.amphibians` | `event.vertebrate-landfall` | `species-card.ichthyostega` |
 | `252-66 Ma` | `timeline.mesozoic-overview` | `clade.reptiles` / `clade.birds` / `clade.mammals` |  | `species-card.archaeopteryx-lithographica` / `species-card.morganucodon` |
+| `252-201 Ma` | `timeline.triassic` | `clade.reptiles` / `clade.mammals` | `event.mass-extinctions-overview` | `species-card.morganucodon` |
+| `201-145 Ma` | `timeline.jurassic` | `clade.reptiles` / `clade.birds` / `clade.mammals` |  | `species-card.archaeopteryx-lithographica` |
+| `145-66 Ma` | `timeline.cretaceous` | `clade.reptiles` / `clade.birds` / `clade.mammals` / `clade.plants` | `event.mass-extinctions-overview` | `species-card.archaeopteryx-lithographica` / `species-card.morganucodon` |
 | `66-0 Ma` | `timeline.cenozoic-overview` | `clade.mammals` / `clade.birds` | `event.mammal-radiation` |  |
+| `66-23.03 Ma` | `timeline.paleogene` | `clade.mammals` / `clade.birds` | `event.mammal-radiation` / `event.mass-extinctions-overview` |  |
+| `23.03-2.58 Ma` | `timeline.neogene` | `clade.mammals` / `clade.birds` | `event.mammal-radiation` |  |
+| `2.58-0 Ma` | `timeline.quaternary` | `clade.mammals` / `clade.birds` |  |  |

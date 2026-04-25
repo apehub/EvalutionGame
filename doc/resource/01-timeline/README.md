@@ -23,7 +23,13 @@
 ### 中生代与新生代
 
 - `mesozoic-overview.md`：中生代总览
+- `triassic.md`：三叠纪与灾后重建、主线竞争
+- `jurassic.md`：侏罗纪与大型爬行动物扩张、鸟类起源
+- `cretaceous.md`：白垩纪与被子植物兴起、末期危机背景
 - `cenozoic-overview.md`：新生代总览
+- `paleogene.md`：古近纪与灾后重建、哺乳类早期辐射
+- `neogene.md`：新近纪与草原扩张、现代生态重塑
+- `quaternary.md`：第四纪与冰期循环、人类前史背景
 
 ## 编写顺序建议
 
@@ -34,7 +40,13 @@
 5. `paleozoic-overview.md`
 6. `permian-end-crisis.md`
 7. `mesozoic-overview.md`
-8. `cenozoic-overview.md`
+8. `triassic.md`
+9. `jurassic.md`
+10. `cretaceous.md`
+11. `cenozoic-overview.md`
+12. `paleogene.md`
+13. `neogene.md`
+14. `quaternary.md`
 
 ## 如果要补完整时间骨架
 
