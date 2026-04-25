@@ -11,8 +11,13 @@
 
 ### 古生代关键节点
 
+- `paleozoic-overview.md`：古生代总代入口与连续主轴导航
 - `cambrian.md`：寒武纪与寒武纪大爆发
+- `ordovician.md`：奥陶纪与海洋多样化扩张
+- `silurian.md`：志留纪与陆生生态前奏
 - `devonian.md`：泥盆纪与鱼类时代、四足动物起源
+- `carboniferous.md`：石炭纪与森林生态、羊膜动物起步
+- `permian.md`：二叠纪与晚古生代整合、末期危机背景
 - `permian-end-crisis.md`：二叠纪末危机与生态系统重置
 
 ### 中生代与新生代
@@ -26,9 +31,10 @@
 2. `precambrian-overview.md`
 3. `cambrian.md`
 4. `devonian.md`
-5. `permian-end-crisis.md`
-6. `mesozoic-overview.md`
-7. `cenozoic-overview.md`
+5. `paleozoic-overview.md`
+6. `permian-end-crisis.md`
+7. `mesozoic-overview.md`
+8. `cenozoic-overview.md`
 
 ## 如果要补完整时间骨架
 
@@ -39,6 +45,6 @@
 
 按当前资料库状态，最应优先补的是：
 
-1. 古生代连续骨架：`ordovician.md`、`silurian.md`、`carboniferous.md`、`permian.md`
+1. 古生代连续骨架：`paleozoic-overview.md`、`ordovician.md`、`silurian.md`、`carboniferous.md`、`permian.md`
 2. 中生代纪级展开：`triassic.md`、`jurassic.md`、`cretaceous.md`
 3. 新生代纪级展开：`paleogene.md`、`neogene.md`、`quaternary.md`

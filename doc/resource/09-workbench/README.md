@@ -44,6 +44,7 @@
 - `matrix-geologic-timescale-mainline.md`：完整地质时间骨架面的线级拆分图
 - `matrix-geologic-timescale-build-order.md`：时间骨架页的待建顺序表
 - `matrix-paleozoic-mainline-page-roles.md`：古生代连续骨架线的页面职责分工表
+- `matrix-life-evolution-skeleton-phase-a.md`：生命演化骨架阶段 A 的任务拆分与检查入口
 
 ## 使用原则
 
@@ -60,3 +61,4 @@
 - 想判断某个大面当前最缺的是正文、来源入口还是工作台支撑：先看 `matrix-surface-support-gaps.md`
 - 想先拆“完整地质时间骨架面”的线，再决定补哪些纪级页：先看 `matrix-geologic-timescale-mainline.md` 与 `matrix-geologic-timescale-build-order.md`
 - 想继续把古生代连续骨架线往下拆到具体页面职责：先看 `matrix-paleozoic-mainline-page-roles.md`
+- 想直接推进“生命演化骨架”阶段 A：先看 `matrix-life-evolution-skeleton-phase-a.md`

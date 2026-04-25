@@ -33,6 +33,46 @@
 
 ## 资料库使用说明
 
+- 首期时间骨架统一采用“宙 -> 代 -> 纪”三层，不要求系统性下钻到“世”。
+- 全时期骨架的首期边界说明见 `life-evolution-skeleton-scope.md`。
 - 时间主轴条目先按“纪”级别建立，必要时再细化到“世”。
 - 事件页可跨越多个时代，但必须在开头注明主要发生时间段。
 - 类群页与物种卡片应明确“首次出现时间”和“主要辐射时期”。
+
+## 首期应补齐的纪级骨架
+
+为让时间主轴先连续，再逐段加密，首期优先补齐以下纪级页面：
+
+### 古生代
+
+- `ordovician.md`
+- `silurian.md`
+- `carboniferous.md`
+- `permian.md`
+
+### 中生代
+
+- `triassic.md`
+- `jurassic.md`
+- `cretaceous.md`
+
+### 新生代
+
+- `paleogene.md`
+- `neogene.md`
+- `quaternary.md`
+
+## 时间页的最小职责
+
+首期新增时间页至少应完成这些职责：
+
+- 说明本纪在全局生命史中的位置
+- 指出前一纪、后一纪和所属代级
+- 给出该纪最重要的支系入口和事件入口
+- 控制代表物种数量，只保留少量关键例子
+
+如果需要更细的阶段拆分与推进顺序，优先查看：
+
+- `../09-workbench/matrix-geologic-timescale-mainline.md`
+- `../09-workbench/matrix-geologic-timescale-build-order.md`
+- `../09-workbench/matrix-life-evolution-skeleton-phase-a.md`

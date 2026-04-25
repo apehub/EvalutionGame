@@ -2,6 +2,32 @@
 
 本表用于显式记录资料库核心条目之间的主要关系。它不是正文互链的替代品，而是帮助把“谁连到谁、为什么连”固定成更稳定的结构层。
 
+## 全时期时间骨架主线
+
+| from | relation | to | 说明 |
+| --- | --- | --- | --- |
+| `timeline.precambrian-overview` | `successor` | `timeline.cambrian` | 从前寒武纪进入显生宙开端 |
+| `timeline.precambrian-overview` | `successor` | `timeline.paleozoic-overview` | 从前寒武纪总代进入古生代总代 |
+| `timeline.paleozoic-overview` | `child` | `timeline.cambrian` | 古生代总代入口下的第一纪 |
+| `timeline.cambrian` | `successor` | `timeline.ordovician` | 时间主轴下一纪 |
+| `timeline.ordovician` | `successor` | `timeline.silurian` | 时间主轴下一纪 |
+| `timeline.silurian` | `successor` | `timeline.devonian` | 时间主轴下一纪 |
+| `timeline.devonian` | `successor` | `timeline.carboniferous` | 时间主轴下一纪 |
+| `timeline.carboniferous` | `successor` | `timeline.permian` | 时间主轴下一纪 |
+| `timeline.permian` | `related` | `timeline.permian-end-crisis` | 二叠纪时代页连向末期危机专题 |
+| `timeline.permian` | `successor` | `timeline.triassic` | 古生代进入中生代 |
+| `timeline.paleozoic-overview` | `child` | `timeline.ordovician` | 古生代总代入口下的纪级骨架 |
+| `timeline.paleozoic-overview` | `child` | `timeline.silurian` | 古生代总代入口下的纪级骨架 |
+| `timeline.paleozoic-overview` | `child` | `timeline.devonian` | 古生代总代入口下的纪级骨架 |
+| `timeline.paleozoic-overview` | `child` | `timeline.carboniferous` | 古生代总代入口下的纪级骨架 |
+| `timeline.paleozoic-overview` | `child` | `timeline.permian` | 古生代总代入口下的纪级骨架 |
+| `timeline.paleozoic-overview` | `successor` | `timeline.mesozoic-overview` | 古生代总代进入中生代总代 |
+| `timeline.triassic` | `successor` | `timeline.jurassic` | 时间主轴下一纪 |
+| `timeline.jurassic` | `successor` | `timeline.cretaceous` | 时间主轴下一纪 |
+| `timeline.cretaceous` | `successor` | `timeline.paleogene` | 中生代进入新生代 |
+| `timeline.paleogene` | `successor` | `timeline.neogene` | 时间主轴下一纪 |
+| `timeline.neogene` | `successor` | `timeline.quaternary` | 时间主轴下一纪 |
+
 ## 前寒武纪主线
 
 | from | relation | to | 说明 |

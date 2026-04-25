@@ -13,6 +13,7 @@
 - `surface-backlog.md`：按“面”追踪已成型、偏薄和待建立板块的面级面板
 - `library-2.0-architecture.md`：资料库 2.0 的目录职责与迁移原则
 - `authoring-flow-2.0.md`：资料库 2.0 新增条目的标准落地顺序
+- `life-evolution-skeleton-scope.md`：生命演化骨架首期范围与边界说明
 
 ## 建议检索路径
 
@@ -25,3 +26,4 @@
 - 想判断下一轮应该优先补哪个大面：先看 `surface-backlog.md`
 - 想理解资料库 2.0 的正文层、registry、assets、exports 和 workbench 如何分工：先看 `library-2.0-architecture.md`
 - 想新增一个条目并按 2.0 结构正确落地：先看 `authoring-flow-2.0.md`
+- 想确认“生命演化骨架”首期做什么、不做什么，以及 PBDB 在当前阶段的位置：先看 `life-evolution-skeleton-scope.md`
